@@ -1,0 +1,33 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  /* Specific styling for table 2: Bold Names */
+  #dogs-container table td.name {
+    font-weight: bold;
+  }
+  
+  /* Specific styling for table 3: Bold, Italic, and Blue Names */
+  #fish-container table td.name {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+  }
+  
